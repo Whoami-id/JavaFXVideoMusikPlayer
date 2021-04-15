@@ -1,0 +1,70 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/* .Styleklasse */
+.root {
+	-fx-base: rgb(122,139,139);
+}
+
+/* #id Selektor */
+#openButton {
+	-fx-background-image: url("../application/images/open.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 32 32;
+	-fx-background-color: transparent;
+	-fx-cursor: hand;
+}
+
+#playButton {
+	-fx-background-image: url("../application/images/play.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 32 32;
+	-fx-background-color: transparent;
+	-fx-cursor: hand;
+}
+
+#pauseButton {
+	-fx-background-image: url("../application/images/pause.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 32 32;
+	-fx-background-color: transparent;
+	-fx-cursor: hand;
+}
+
+#stopButton {
+	-fx-background-image: url("../application/images/stop.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 32 32;
+	-fx-background-color: transparent;
+	-fx-cursor: hand;
+}
+
+#mainControllerHbox {
+	-fx-background-color: derive(-fx-base, 40%);
+}
+
+/* Pseudoklasse */
+.button:hover {
+	-fx-scale-x: 1.2;
+	-fx-scale-y: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
